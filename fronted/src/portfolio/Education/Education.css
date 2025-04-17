@@ -1,0 +1,36 @@
+.education-section {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .education-card {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+
+  }
+  
+  .education-card h3 {
+    color: #007bff;
+  }
+  
+  .education-card p {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  .education-card ul {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  .education-card li {
+    margin-bottom: 5px;
+    list-style:circle;
+  }
+  .my-edu img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }

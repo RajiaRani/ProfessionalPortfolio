@@ -1,0 +1,74 @@
+.contact-container {
+    padding-top: 120px;
+    width: 40%;
+    margin: auto;
+
+}
+
+.contact-form {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.contact-form .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form .btn {
+    background-color: #1e3340;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.contact-info-item {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-info-item .icon {
+    font-size: 22px;
+    color: #1e3340;
+}
+
+.row {
+    display: flex;
+    flex-direction: column; /* Stack items in a column */
+    align-items: center;
+    width: 100%;
+}
+
+.form-item {
+    width: 100%; /* Ensure form items take up full width */
+    margin-bottom: 15px; /* Adjust margin if needed */
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column; /* Stack form fields in a column */
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form .btn {
+    width: 100%; /* Ensure button spans full width */
+    padding: 15px; /* Increase button size for better visibility */
+}
+.row2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px 10px 0px;
+}
+.row3{
+    text-align: center;
+    padding: 10px 0px ;
+}

@@ -1,0 +1,91 @@
+.experience-container {
+    width: 65%;
+    margin: auto;
+    padding: 20px;
+    padding-top: 100px;
+    min-height: 80vh;
+    background-color: #efe9e912;
+
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .experience-card {
+    border-bottom: 2px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .experience-card h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .experience-card h4 {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .experience-card ul {
+    padding-left: 20px;
+  }
+  
+  .experience-card ul li {
+    margin-bottom: 8px;
+    list-style-type:circle;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .pagination span {
+    font-size: 16px;
+  }
+  
+
+
+  
+  .location {
+    font-weight: bold;
+  }
+  
+  .year {
+    font-style: italic;
+    text-align: end;
+  }
+  
+ .experience-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .experience-container img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+
+ }

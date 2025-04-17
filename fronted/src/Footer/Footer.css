@@ -1,0 +1,74 @@
+.footer-main-container{
+    background-color: rgba(245, 245, 245, 0.9);
+    padding: 10px 0px;
+    margin-top: 50px;
+}
+.footer{
+display: flex;
+align-items: center !important;
+justify-content: space-between;
+flex-wrap: wrap;
+width: 60%;
+margin: auto;
+}
+.footer-left-side{
+width: 20%;
+}
+.footer-right-side{
+    width: 20%;
+}
+.footer-right-side svg{
+    font-size: 23px;
+    margin-left: 10px;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
+.footer-right-side svg:hover{
+   opacity: 1.0;
+   transform: scale(1.1);
+   cursor: pointer;
+}
+.footer-middle-side{
+width: 20%;
+}
+.footer-middle-side ul{
+display: flex;
+}
+.footer-middle-side ul li{
+    padding-left: 20px;
+}
+.footer-middle-side ul li:hover{
+    color: black;
+    cursor: pointer;
+}
+
+
+@media (max-width: 576px) {  
+    .footer {
+        flex-direction: column;  /* Stack items vertically */
+        align-items: center;
+        width: 100%;  /* Full width */
+        text-align: center;
+    }
+
+    .footer-left-side,
+    .footer-middle-side,
+    .footer-right-side {
+        width: 100%;  /* Each section takes full width */
+        margin-bottom: 10px; /* Add spacing between sections */
+    }
+
+    .footer-middle-side ul {
+        flex-direction: column;  /* Stack links vertically */
+        padding: 0;
+    }
+
+    .footer-middle-side ul li {
+        padding: 5px 0; /* Adjust spacing */
+    }
+
+    .footer-right-side svg {
+        margin-left: 8px; /* Reduce margin */
+        font-size: 25px;  /* Slightly smaller icons */
+    }
+}

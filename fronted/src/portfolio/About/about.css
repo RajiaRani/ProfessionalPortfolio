@@ -1,0 +1,220 @@
+.about-image{
+    width: 100%;
+    background-image: url("../../assets/About/fullimage4.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 600px; 
+   position: relative;
+}
+.about-image .about-me{
+position: absolute;
+bottom: 0px;
+background-color: rgba(0, 0, 0, 0.3);
+width: 100%;
+padding: 15px 0px 15px 360px;
+
+}
+.about-image .about-me h1,h3{
+    color: #fff !important;
+}
+.about-experience{
+    display: flex;
+   background-color: whitesmoke;
+   margin:30px 0px;
+}
+.about-head{
+    padding: 20px 0px !important;
+}
+.about-me a{
+    color:  rgb(231, 106, 106);
+}
+.about-middle{
+    padding: 20px 0px;
+}
+.about-experience ul{
+    padding: 40px;
+}
+.about-experience img{
+    width: 350px;
+    height: 350px;
+}
+.about-experience ul li{
+    list-style:circle;
+}
+
+.all-images{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.all-images img{
+    width: 320px;
+    height: 250px;
+}
+.all-images img:hover{
+    cursor: pointer;
+}
+
+
+/*=============================================================
+ ALL PROJECTS
+ =============================================================== */
+
+
+/* Container */
+.projects-container {
+    text-align: center;
+    padding: 40px;
+    background-color: #f9f9f9;
+    width: 100%;
+    margin: auto;
+}
+
+/* Title */
+.projects-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Grid Layout */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Project Card */
+.project-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s;
+    height: 290px; /* Fixed height for uniformity */
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Image */
+.project-image {
+    width: 100%;
+    height: 120px; /* Fixed height for square/rectangle */
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Title & Description */
+.project-title {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #222;
+    margin: 10px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.project-description {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.3;
+    height: 40px; /* Fixed height for consistent length */
+    overflow: hidden;
+}
+
+/* View Link */
+.project-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 12px;
+    background-color: #2a9d8f;
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.project-link:hover {
+    background-color: #21867a;
+}
+
+
+
+
+
+
+
+
+/*===================================================
+    MEDIA QUERY FOR SMALLER SCREENS (max-width: 576px)
+=====================================================*/
+@media (max-width: 576px) {  
+    /* ABOUT SECTION Adjustments */
+    .about-image {
+        height: 400px; /* reduce height on small screens */
+    }
+    .about-image .about-me {
+        padding: 10px 0px 10px 20px; /* reduce left padding to bring content closer to the edge */
+    }
+    .about-image .about-me h1,
+    .about-image .about-me h3 {
+        font-size: 1.2rem;  /* slightly smaller text */
+    }
+    .about-experience {
+        flex-direction: column;  /* stack elements vertically */
+        align-items: center;
+    }
+    .about-experience img {
+        width: 250px;  /* smaller image size */
+        height: 250px;
+    }
+    .about-experience ul {
+        padding: 20px;  /* reduce padding */
+    }
+    .all-images {
+        flex-direction: column;  /* stack images */
+        gap: 15px;
+    }
+    .all-images img {
+        width: 100%; /* full width for each image */
+        height: auto;
+    }
+    
+    /* PROJECTS SECTION Adjustments */
+    .projects-container {
+        padding: 20px;  /* reduce overall padding */
+    }
+    .projects-title {
+        font-size: 1.5rem;
+    }
+    .projects-grid {
+        gap: 15px;
+    }
+    .project-card {
+        height: auto;  /* allow flexible height */
+        padding: 10px;
+    }
+    .project-image {
+        height: 100px;  /* smaller image height */
+    }
+    .project-title {
+        font-size: 0.9rem;
+    }
+    .project-description {
+        font-size: 0.8rem;
+    }
+    .project-link {
+        font-size: 0.75rem;
+        padding: 4px 10px;
+    }
+}

@@ -1,0 +1,60 @@
+.main-navbar-container{
+    padding: 0px;
+    width: 100%;
+    background-color: rgba(245, 245, 245, 0.9);
+    position: fixed;
+    z-index: 100;
+ 
+}
+.navbar{
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 8px;
+}
+.left-side{
+width: 25%;
+}
+.left-side p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.left-side p:hover{
+cursor: pointer;
+}
+.middle-side{
+width: 55%;
+
+}
+.middle-side ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+.middle-side ul li:hover{
+    cursor: pointer;
+    color: rgb(44, 111, 147);
+    text-decoration: underline;
+}
+.right-side{
+width: 9%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.right-side svg{
+    font-size: 23px;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
+.right-side svg:hover{
+cursor: pointer;
+color: black;
+opacity: 1.0;
+transform: scale(1.1);
+}
