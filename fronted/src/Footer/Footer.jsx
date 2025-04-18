@@ -7,7 +7,7 @@ export default function Footer() {
     const year = new Date().getFullYear();
     return (
         <>
-            <div className="footer-main-container">
+           <footer>
                 <div className="footer">
                     <div className="footer-left-side">
                         <p> &copy; {year} C.Mekalathuru</p>
@@ -26,8 +26,7 @@ export default function Footer() {
                         <a href="https://medium.com/@chenchaiah.mekalathuru"  target="_blank" rel="noopener noreferrer"><FaMedium /></a>
                     </div>
                 </div>
-
-            </div>
+           </footer>
         </>
     )
 }
