@@ -2,6 +2,8 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaMedium } from "react-icons/fa6";
 import { Link } from "react-router-dom";
+import { FaBars } from "react-icons/fa6";
+import { MdDisabledByDefault } from "react-icons/md";
 import "./Navbar.css";
 export default function Navbar(){
 
@@ -10,7 +12,7 @@ export default function Navbar(){
         <div className="main-navbar-container">
             <div className="navbar">
               <div className="left-side">
-                <p><Link to="/">Chenchiah Mekalathuru</Link> </p>
+                <p><Link to="/">Chenchiah Mekalathuru</Link></p>
               </div>
               <div className="middle-side">
               <ul>
@@ -23,7 +25,14 @@ export default function Navbar(){
                 <li><Link to="/contact">Contact</Link></li>
                 <li><Link to="/resume">Resume</Link></li>
               </ul>
+              <div className="icon">
+              <FaBars />
               </div>
+              <div className="close">
+              <MdDisabledByDefault />
+              </div>
+              </div>
+            
               <div className="right-side">
                <a href="https://www.linkedin.com/in/iamchenchu/"  target="_blank" rel="noopener noreferrer"><FaLinkedin/></a> 
                <a href="https://github.com/iamchenchu"  target="_blank" rel="noopener noreferrer">  <FaGithub/></a>
