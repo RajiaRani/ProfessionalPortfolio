@@ -63,3 +63,14 @@ h2{
 h3{
   color: rgb(231, 106, 106) ;
 }
+
+
+@media(max-width: 768px){
+  .main-container{
+    width: 100%;
+    padding-top: 50px;
+  }
+  .sub-container{
+    padding: 20px 10px;
+  }
+}
