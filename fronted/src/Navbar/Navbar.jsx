@@ -9,21 +9,38 @@ export default function Navbar(){
 
     return(
         <>
-        <div className="main-navbar-container">
+      <header>
+      <div className="main-navbar-container">
             <div className="navbar">
               <div className="left-side">
                 <p><Link to="/">Chenchiah Mekalathuru</Link></p>
               </div>
               <div className="middle-side">
-              <ul>
-                <li><Link to="/about">About</Link></li>
-                <li><Link to="/projects">Projects</Link> </li>
-                <li><Link to="/skills">Skills</Link></li>
-                <li><Link to="/education">Academic</Link></li>
-                <li><Link to="/experience">Experience</Link></li>
-                <li><Link to="/certificates">Certificates</Link></li>
-                <li><Link to="/contact">Contact</Link></li>
-                <li><Link to="/resume">Resume</Link></li>
+              <ul className="nav-menu">
+                <li className="nav-item">
+                  <Link to="/about" className="nav-link">About</Link>
+                  </li>
+                <li className="nav-item">
+                  <Link to="/projects" className="nav-link">Projects</Link> 
+                  </li>
+                <li className="nav-item">
+                  <Link to="/skills" className="nav-link">Skills</Link>
+                  </li>
+                <li className="nav-item">
+                  <Link to="/education" className="nav-link">Academic</Link>
+                  </li>
+                <li className="nav-item">
+                  <Link to="/experience" className="nav-link">Experience</Link>
+                  </li>
+                <li className="nav-item">
+                  <Link to="/certificates" className="nav-link">Certificates</Link>
+                  </li>
+                <li className="nav-item">
+                  <Link to="/contact" className="nav-link">Contact</Link>
+                  </li>
+                <li className="nav-item">
+                  <Link to="/resume" className="nav-link">Resume</Link>
+                  </li>
               </ul>
               <div className="icon">
               <FaBars />
@@ -40,6 +57,7 @@ export default function Navbar(){
               </div>
             </div>
         </div>
+      </header>
         </>
     )
 
