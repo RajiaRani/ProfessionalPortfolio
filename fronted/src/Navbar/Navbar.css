@@ -26,7 +26,6 @@ cursor: pointer;
 }
 .middle-side{
 width: 55%;
-
 }
 .middle-side ul{
     display: flex;
@@ -44,7 +43,6 @@ width: 9%;
 display: flex;
 align-items: center;
 justify-content: space-between;
-
 }
 .right-side svg{
     font-size: 23px;
@@ -69,7 +67,21 @@ transform: scale(1.1);
     gap: 1rem;
     padding: 1rem;
   }
-
+  .left-side p{
+    font-size: 1.2rem;
+}
+.navbar{
+    width: 100%;
+}
+.left-side{
+    width: 50%;
+}
+.middle-side{
+    width: 20% !important;
+}
+.right-side{
+    width: 14%;
+ }
   /* Show only when active */
   .middle-side.active .nav-menu {
     display: flex;
@@ -99,5 +111,18 @@ transform: scale(1.1);
     position: absolute;
     top: 20px;
     right: 20px;
+  }
+  .menu-toggle {
+    order: 2;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1rem;
+  }
+  
+  .icon,
+  .close {
+    display: block;
+    font-size: 1.5rem;
+    cursor: pointer;
   }
 }
