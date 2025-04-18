@@ -1,10 +1,9 @@
-.main-navbar-container{
+header{
     padding: 0px;
-    width: 100%;
+    width: 100% !important;
     background-color: rgba(245, 245, 245, 0.9);
     position: fixed;
     z-index: 100;
- 
 }
 .navbar{
     display: flex ;
@@ -63,5 +62,42 @@ transform: scale(1.1);
 }
 
 @media(max-width: 768px){
-    
+  /* Initially hide nav-menu */
+  .middle-side .nav-menu {
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  /* Show only when active */
+  .middle-side.active .nav-menu {
+    display: flex;
+    background-color: white;
+    position: absolute;
+    top: 70px; /* adjust depending on header height */
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+
+  .icon {
+    display: block;
+  }
+
+  .middle-side.active .icon {
+    display: none;
+  }
+
+  .close {
+    display: none;
+  }
+
+  .middle-side.active .close {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
 }
