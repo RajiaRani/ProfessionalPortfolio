@@ -9,7 +9,7 @@ export default function Skills() {
         <div className="main-container">
              <SkillCard/>
             <br />
-            <h3>My Projects using the above skills</h3>
+            <h2>My Projects using the above skills</h2>
             <Project />
         </div>
         </>

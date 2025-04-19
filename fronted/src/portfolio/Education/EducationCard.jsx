@@ -40,11 +40,11 @@ export default function EducationCard() {
     return (
         <div className="sub-container">
                  <div className="my-edu">
-                    <h2>🎓 Academic</h2>
+                    <h1>🎓 Academic</h1>
                      <hr />
                     {educationData.map((edu, index) => (
                         <div key={index} className="education-card">
-                            <h3>{edu.degree}</h3>
+                            <h2>{edu.degree}</h2>
                             <div className="flex">
                                 <img src={edu.logo} />
                                 <strong>{edu.university}</strong>

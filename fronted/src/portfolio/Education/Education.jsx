@@ -36,8 +36,6 @@ const educationData = [
 ];
 
 export default function Education() {
-    
-
     return (
         <div className="main-container">
                <EducationCard/>

@@ -48,7 +48,7 @@ export default function Chenchaiah() {
 
             <div className="about-main-container">
                 <div className="intro">
-                    <h2>About Me</h2>
+                    <h1>About Me</h1>
                     <hr />
                     <p>
                         Hi, I am Chenchaiah Mekalathuru. <br />

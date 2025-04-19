@@ -118,7 +118,7 @@ export default function Project() {
   return (
     <div className="sub-container">
       <div className="project-head">
-        <h2>Projects</h2>
+        <h1>Projects</h1>
         <Link to="/projects">
           Learn more <HiOutlineArrowNarrowRight />
         </Link>

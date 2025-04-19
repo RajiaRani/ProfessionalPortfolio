@@ -38,7 +38,7 @@ export default function SkillCard() {
         <>
 
             <div className="skills-container">
-                <h2>💡 My Technical Skills</h2>
+                <h1>💡 My Technical Skills</h1>
                 <hr />
                 <table className="skills-table">
                     <tbody>
