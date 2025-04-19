@@ -17,7 +17,7 @@ export default function President() {
                 <div className="experience-card">
                     <div className="experience-header">
                         <div className="experience-meta">
-                            <h3>Research Assistant</h3>
+                            <h3>ML Research Assistant</h3>
                             <div className="flex">
                             <img src={sd}/>
                             <h4>University of South Dakota</h4>
@@ -34,7 +34,7 @@ export default function President() {
                             <li key={idx}>{detail}</li>
                         ))}
                     </ul>
-                
+
                 </div>
     
         </>

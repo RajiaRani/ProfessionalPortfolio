@@ -28,7 +28,7 @@ export default function Byjus() {
                         </div>
                         <div className="experience-title">
                             <p className="location">Hyderabad, Telangana, India</p>
-                            <p className="year">Nov 2019 - Jul 2023</p>
+                            <p className="year">Jul 2021 - Jun 2023</p>
                         </div>
                     </div>
     

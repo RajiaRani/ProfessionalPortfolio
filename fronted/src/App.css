@@ -23,6 +23,7 @@
   
 }
 p{
+  font-size: 16px;
   line-height: 1.9;
 }
 
@@ -54,6 +55,7 @@ a{
 }
 h1{
   color: #212529;
+  font-size: 1.5rem;
 }
 h2{
   color: rgb(1, 93, 142);
@@ -61,7 +63,7 @@ h2{
   font-size: 29px;
 }
 h3{
-  color: rgb(231, 106, 106) ;
+  color: rgb(231, 106, 106) !important ;
 }
 
 
@@ -73,4 +75,11 @@ h3{
   .sub-container{
     padding: 20px 10px;
   }
+p{
+  font-size: 14px;
+  line-height: 1.8;
+}
+li{
+  font-size: 14px ;
+}
 }
