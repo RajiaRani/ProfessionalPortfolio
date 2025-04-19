@@ -24,6 +24,7 @@
   .experience-card h3 {
     font-size: 20px;
     font-weight: bold;
+    color: #125399 !important;
   }
   
   .experience-card h4 {
@@ -88,4 +89,14 @@
   height: 30px;
   border-radius: 50%;
 
+ }
+
+ @media(max-width: 768px){
+  .experience-container {
+    width: 100%;
+  }
+  
+  .experience-card{
+    padding: 10px;
+  }
  }
