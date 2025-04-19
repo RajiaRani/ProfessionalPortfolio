@@ -46,7 +46,7 @@ export default function Chenchaiah() {
 
             </div>
 
-            <div className="main-container">
+            <div className="about-main-container">
                 <div className="intro">
                     <h2>About Me</h2>
                     <hr />

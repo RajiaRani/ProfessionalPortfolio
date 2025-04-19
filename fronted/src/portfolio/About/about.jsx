@@ -18,7 +18,7 @@ export default function about() {
               <h3>Click   <a href="/Chenchaiah.pdf" >here</a> to download my CV and check out <a href="">my portfolio</a> to see my work.</h3>
               </div>
             </div>
-            <div className="main-container">
+            <div className="about-main-container">
                 <h2>About</h2>
                 <hr />
                 <div className="about-head">
