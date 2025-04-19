@@ -2,6 +2,7 @@
 import React from "react";
 import rga from "../../../assets/Project/rga.jpeg";
 import"./comman.css";
+import Project from "../project";
 
 export default function RGA() {
     return (
@@ -51,6 +52,7 @@ export default function RGA() {
                     View on GitHub
                 </a>
             </div>
+            <Project/>
         </div>
     );
 }

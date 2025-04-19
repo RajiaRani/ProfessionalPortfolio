@@ -2,6 +2,7 @@
 import React from "react";
 import"./comman.css";
 import bitcoinImage from "../../../assets/Project/bitcoin.jpg";
+import Project from "../project";
 
 export default function BitcoinPredict() {
     return (
@@ -39,6 +40,7 @@ export default function BitcoinPredict() {
                     View on GitHub
                 </a>
             </div>
+            <Project/>
         </div>
     );
 }

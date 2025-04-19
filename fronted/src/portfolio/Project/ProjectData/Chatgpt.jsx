@@ -2,6 +2,7 @@
 import React from "react";
 import gpt from "../../../assets/Project/gpt.png";
 import"./comman.css";
+import Project from "../project";
 
 export default function Chatgpt() {
     return (
@@ -57,6 +58,7 @@ export default function Chatgpt() {
                     View on GitHub
                 </a>
             </div>
+            <Project/>
         </div>
     );
 }

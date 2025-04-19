@@ -12,6 +12,7 @@ import gpt from "../../assets/Project/gpt.png";
 import rga from "../../assets/Project/rga.jpeg";
 import { Link } from "react-router-dom";
 
+
 const projectsData = [
     {
         id:"bitcoin",
@@ -96,6 +97,7 @@ export default function Projects() {
                     </div>
                 ))}
             </div>
+     
         </div>
     );
 }

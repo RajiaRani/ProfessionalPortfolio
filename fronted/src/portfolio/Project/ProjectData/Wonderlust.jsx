@@ -2,6 +2,7 @@
 import React from "react";
 import wonderlust from "../../../assets/Project/wonderlust.png";
 import"./comman.css";
+import Project from "../project";
 
 export default function Wonderlust() {
     return (
@@ -73,6 +74,7 @@ export default function Wonderlust() {
                     View on GitHub
                 </a>
             </div>
+            <Project/>
         </div>
     );
 }
