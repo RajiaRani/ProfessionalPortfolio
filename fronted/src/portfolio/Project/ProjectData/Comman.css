@@ -48,7 +48,7 @@
     color: #333;
   }
   
-  .project-link {
+  /* .project-link {
     display: inline-block;
     margin-top: 1.5rem;
     padding: 0.6rem 1.2rem;
@@ -57,10 +57,10 @@
     border-radius: 6px;
     text-decoration: none;
     transition: background 0.3s ease;
-  }
+  } */
   
-  .project-link:hover {
+  /* .project-link:hover {
     background-color: #14516b;
-  }
+  } */
   
   

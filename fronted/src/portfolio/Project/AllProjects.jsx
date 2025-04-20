@@ -71,7 +71,7 @@ const projectsData = [
 export default function Projects() {
     return (
         <div className="project-container">
-            <h2>🚀 My Projects</h2>
+            <h1>🚀 My Projects</h1>
             <div className="projects-list">
                 {projectsData.map((project, index) => (
                     <div key={index} className="project-item">

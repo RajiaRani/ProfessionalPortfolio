@@ -1,12 +1,10 @@
-
 .project-container{
-    width: 50%;
+    width: 55%;
     margin: auto;
-    padding-top:150px;
-  
+    padding-top:100px;
 }
 .project-image{
-    height: 200px;
+    height: 180px;
 }
 .project-head{
     display: flex;
@@ -41,19 +39,28 @@
 }
 .project-title{
     color: #084c94 !important; 
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 700;
 }
-.projects-list{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.project-details{
+    margin: -10px 0 !important;
 }
+.projects-list{
+    display: grid;
+    grid-template-columns: repeat(3,310px);
+    grid-template-rows: repeat(2,390px);
+    grid-gap: 15px !important;
+}
+
 .project-item{
-    width: 50%;
-    height: 50%;
-    margin-bottom: 20px;
+    width: 100%;
+    height: 100%;
     padding: 20px;
+    border-radius: 10px;
+    background-color: #efe9e912;
+    background-color: whitesmoke;
+   border: 1px solid rgba(0, 0, 0, 0.5);
+   box-shadow: 2px -2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 .card-header img {
     width: 100%;
@@ -64,7 +71,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%; 
-    gap: 8px;
+    gap: 5px;
 }
 
 .tech-badge {
@@ -89,7 +96,6 @@
     flex-wrap: nowrap;
 }
 
-
 .project-slider {
   margin-top: 20px;
 }
@@ -100,19 +106,18 @@
 }
 
 .tech-stack span {
-  display: inline-block;
-  background: #eee;
+  /* display: inline-block;
+  background: #eee; */
   color: #333;
-  padding: 4px 8px;
   border-radius: 5px;
   margin: 3px 5px 0 0;
   font-size: 0.8rem;
+  text-decoration: underline;
 }
 
 .card-links {
   margin-top: 10px;
 }
-
 
 /* Custom arrow styles */
 .slick-prev:before, .slick-next:before {
