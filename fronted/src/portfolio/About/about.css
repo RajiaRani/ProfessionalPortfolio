@@ -151,44 +151,40 @@ padding: 15px 0px 15px 360px;
 
 
 
-
-
-
-
-
 /*===================================================
     MEDIA QUERY FOR SMALLER SCREENS (max-width: 576px)
 =====================================================*/
-@media (max-width: 576px) {  
+@media (max-width: 768px) {  
     /* ABOUT SECTION Adjustments */
     .about-image {
-        height: 400px; /* reduce height on small screens */
+        height: 300px; /* reduce height on small screens */
     }
     .about-image .about-me {
-        padding: 10px 0px 10px 20px; /* reduce left padding to bring content closer to the edge */
+        padding: 10px 0px 10px 20px; 
     }
     .about-image .about-me h1,
     .about-image .about-me h3 {
-        font-size: 1.2rem;  /* slightly smaller text */
+        font-size: 1rem;  /* slightly smaller text */
     }
     .about-experience {
         flex-direction: column;  /* stack elements vertically */
         align-items: center;
     }
     .about-experience img {
-        width: 250px;  /* smaller image size */
+        width: 100%;
         height: 250px;
     }
     .about-experience ul {
         padding: 20px;  /* reduce padding */
     }
     .all-images {
-        flex-direction: column;  /* stack images */
-        gap: 15px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,1fr);
     }
     .all-images img {
-        width: 100%; /* full width for each image */
-        height: auto;
+        width: 100% !important; 
+        height: 240px;
     }
     
     /* PROJECTS SECTION Adjustments */

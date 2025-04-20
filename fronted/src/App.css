@@ -83,6 +83,12 @@ p{
 li{
   font-size: 14px ;
 }
+h1{
+  font-size: 1.4rem;
+}
+h2{
+  font-size: 1rem;
+}
 .about-main-container{
   width: 100%;
   padding:10px !important;
