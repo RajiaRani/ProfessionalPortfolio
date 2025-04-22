@@ -78,7 +78,7 @@ export default function Projects() {
                         <img src={project.image} alt={project.title} className="project-image" />
 
                         <div className="project-details">
-                            <h3 className="project-title">{project.title}</h3>
+                            <p className="project-title">{project.title}</p>
                             <p className="project-description">{project.description}</p>
 
                             <div className="tech-stack">

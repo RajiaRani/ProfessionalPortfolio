@@ -37,6 +37,14 @@
     text-align: left;
     padding: 15px;
 }
+
+
+.projects-list{
+    display: grid;
+    grid-template-columns: repeat(3,310px);
+    grid-template-rows: repeat(2,390px);
+    grid-gap: 15px !important;
+}
 .project-title{
     color: #084c94 !important; 
     font-size: 1.2rem;
@@ -45,12 +53,7 @@
 .project-details{
     margin: -10px 0 !important;
 }
-.projects-list{
-    display: grid;
-    grid-template-columns: repeat(3,310px);
-    grid-template-rows: repeat(2,390px);
-    grid-gap: 15px !important;
-}
+
 
 .project-item{
     width: 100%;
@@ -59,8 +62,9 @@
     border-radius: 10px;
     background-color: #efe9e912;
     background-color: whitesmoke;
-   border: 1px solid rgba(0, 0, 0, 0.5);
-   box-shadow: 2px -2px 2px 2px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px -2px 2px 2px rgba(0, 0, 0, 0.5);
+    background-color: #007bff;
 }
 .card-header img {
     width: 100%;
@@ -131,21 +135,20 @@
     .project-container{
         width: 100%;
         margin: auto;
-        padding-top:150px;
-      
+        padding-top:70px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .project-image{
-        height: 150px;
+        height: 130px;
     }
     .card-header{
         height: 200px;
     }
-  
     .card-header img {
         width: 100%;
         height: 200px;
       }
- 
     .project-title{
         font-size: 1.2rem;
     }
@@ -153,4 +156,32 @@
     .project-slider {
       margin-top: 20px;
     }
+    .projects-list{
+        display: grid;
+        grid-template-columns: repeat(1,100%);
+        grid-template-rows: repeat(5,300px);
+    }
+    .project-item{
+        padding: 10px;
+    }
+    .card-header img {
+        height: 100px !important;
+      }
+    .tech-stack {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    .project-title{
+        background-color: red;
+
+    }
+    .project-description {
+        background-color: pink;
+    }
+    .tech-stack{
+        background-color: yellow;
+     
+    }
+
 }
