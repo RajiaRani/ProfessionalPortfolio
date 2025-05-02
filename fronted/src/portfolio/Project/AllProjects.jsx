@@ -2,8 +2,6 @@ import React from "react";
 import "./project.css";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
-
-
 // Import Project Images
 import bitcoin from "../../assets/Project/bitcoin.jpg";
 import wonderlust from "../../assets/Project/wonderlust.png";
